@@ -1,0 +1,57 @@
+plugins {
+    id 'eclipse'
+    id 'java-library'
+    id 'application'
+    id 'com.github.johnrengelman.shadow' version '8.1.1'
+}
+
+version ''
+group 'fr.welloznetwork.wellozlauncher'
+archivesBaseName = "WelloZLauncher"
+
+repositories {
+    mavenCentral()
+    maven {
+        url = 'https://litarvan.github.io/maven'
+        name = 'LitarvanMaven'
+    }
+    
+    maven {
+        url 'https://jitpack.io/'
+        name = 'JitPack'
+    }
+
+    maven {
+        url = 'https://maven.scijava.org/content/repositories/public/'
+    }
+}
+
+dependencies {
+    implementation 'fr.litarvan:openauth:1.+'
+
+    implementation 'de.jensd:fontawesomefx:8.9'
+    
+    implementation 'fr.flowarg:flowupdater:1.5.+'
+    implementation 'fr.flowarg:flowupdater-curseforgeplugin:2.+'
+    implementation 'fr.flowarg:flowupdater-optifineplugin:2.+'
+    implementation 'fr.flowarg:openlauncherlib:3.+'
+    
+    implementation group: 'com.github.goxr3plus', name: 'FX-BorderlessScene', version: '4.4.0'
+    implementation 'com.github.oshi:oshi-core:5+'
+    
+    implementation 'com.google.code.gson:gson:2.10.1'
+    
+    implementation("org.slf4j:slf4j-simple:1.7.36")
+}
+
+application {
+    getMainClass().set('fr.welloznetwork.wellozlauncher.client.main.Main')
+}
+
+compileJava {
+    options.encoding = "UTF-8"
+}
+
+jar {
+    manifest.attributes.put('Main-Class', 'fr.welloznetwork.wellozlauncher.client.main.Main')
+}

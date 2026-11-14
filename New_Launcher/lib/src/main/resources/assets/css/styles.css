@@ -1,0 +1,108 @@
+.layout {
+	-fx-background: rgb(10, 12, 12);
+}
+
+.login {
+	-fx-background-color: rgb(34, 32, 32);
+}
+
+.background {
+	-fx-background-color: rgb(47, 47, 47);
+	-fx-background-radius: 10px;
+}
+
+.login-microsoft {
+	-fx-background-color: rgb(0, 139, 68);
+	-fx-background-radius: 10px;
+	-fx-font-family: 'Montserrat Alternates Bold';
+	-fx-font-size: 18px;
+	-fx-text-fill: rgb(255, 255, 255);
+}
+
+.login-microsoft:hover {
+	-fx-background-color: rgb(50, 159, 104);
+	-fx-cursor: hand;
+}
+
+.sign-up-button {
+	-fx-background-color: rgb(45, 45, 45);
+	-fx-font-family: 'Montserrat Alternates Bold';
+	-fx-font-size: 12px;
+	-fx-text-fill: rgb(255, 255, 255);
+	-fx-underline: true;
+}
+
+.sign-up-button:hover {
+	-fx-background-color: rgb(55, 55, 55);
+	-fx-cursor: hand;
+}
+
+.copyright:hover {
+	-fx-underline: true;
+	-fx-cursor: hand;
+}
+
+.settings-button {
+	-fx-background-color: rgb(47, 47, 47);
+	-fx-text-fill: rgb(255, 255, 255);
+}
+
+.settings-button:hover {
+	-fx-background-color: rgb(55, 55, 55);
+	-fx-cursor: hand;
+}
+
+.settings-memory {
+	-fx-font-family: 'Montserrat Alternates Regular';
+	-fx-background-color: rgb(200, 200, 200);
+	-fx-text-fill: rgb(255, 255, 255);
+	-fx-cursor: hand;
+}
+
+.settings-memory .arrow-button .arrow {
+	-fx-background-color: rgb(0, 0, 0);
+}
+
+.settings-memory .list-view {
+	-fx-background-color: rgb(0, 139, 68);
+	-fx-cursor: hand;
+}
+
+.settings-memory .list-cell:hover {
+	-fx-text-fill: rgb(255, 255, 255);
+	-fx-background-color: rgb(50, 159, 104);
+}
+
+.settings-memory .track {
+	-fx-background-color: rgb(220, 220, 220);
+}
+
+.settings-memory .thumb {
+	-fx-background-color: rgb(0, 139, 68);
+	-fx-cursor: hand;
+}
+
+.settings-memory .thumb:hover {
+	-fx-background-color: rgb(50, 159, 104);
+}
+
+.progress-bar {
+	-fx-max-width: 400px;
+	-fx-min-height: 15px;
+	-fx-max-height: 10px;
+}
+
+.progress-bar > .bar {
+	-fx-background-color: rgb(0, 139, 68);
+	-fx-background-insets: 0;
+}
+
+.progress-bar > .track {
+	-fx-background-color: rgb(255, 255, 255);
+	-fx-background-insets: 0;
+}
+
+.progress-status {
+	-fx-text-alignment: center;
+	-fx-text-fill: rgb(255, 255, 255);
+}

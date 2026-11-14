@@ -1,0 +1,14 @@
+name: WelloZPlugin
+version: 1.0
+author: DarKay__
+main: fr.welloznetwork.wellozplugin.WelloZPlugin
+commands:
+  ss:
+    description: WelloZNetwork Administrator Tools
+    permission: administrator.wn
+  ss-ban:
+    description: WelloZNetwork Administrator Tools
+    permission: administrator.wn
+  ss-mute:
+    description: WelloZNetwork Administrator Tools
+    permission: administrator.wzn

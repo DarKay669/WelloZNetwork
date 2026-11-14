@@ -1,0 +1,16 @@
+[
+{
+  "modid": "wellozmod",
+  "name": "WelloZMod",
+  "description": "Mod principal du serveur WelloZNetwork.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["DarKay__"],
+  "credits": "WelloZNetwork est l'auteur de ce logiciel au regard du droit d'auteur. Tous droits réservés. © 2025 WelloZNetwork.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

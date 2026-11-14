@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"minVersion": "0.6",
+	"package": "fr.welloznetwork.wellozmod.mixins",
+	"refmap": "mixins.wellozmod.refmap.json",
+	"target": "@env(PREINIT)",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+		"cpw.mods.fml.common.MixinLoader"
+	]
+}

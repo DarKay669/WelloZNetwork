@@ -1,0 +1,3 @@
+FMLCorePluginContainsFMLMod: true
+FMLCorePlugin: fr.welloznetwork.wellozmod.mixins.Mixin
+ForceLoadAsMod: true

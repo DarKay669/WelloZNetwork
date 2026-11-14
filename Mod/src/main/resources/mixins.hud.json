@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"minVersion": "0.6",
+	"package": "fr.welloznetwork.wellozmod.modules.hud.mixins",
+	"refmap": "mixins.wellozmod.refmap.json",
+	"target": "@env(PREINIT)",
+	"compatibilityLevel": "JAVA_8",
+	"client": [
+		"client.gui.MixinGuiButton",
+		"client.gui.MixinGuiNewChat",
+		"client.gui.MixinGuiScreen"
+	]
+}

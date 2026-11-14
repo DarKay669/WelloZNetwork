@@ -1,0 +1,16 @@
+[
+{
+  "modid": "mercury",
+  "name": "Mercury",
+  "description": "",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["DarKay__"],
+  "credits": "Toute distribution ou reproduction m\u00EAme partielle sans l'accord de l'\u00E9quipe de d\u00E9veloppement de WelloZNetwork est strictement interdite.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

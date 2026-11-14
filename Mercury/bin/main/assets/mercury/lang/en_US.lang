@@ -1,0 +1,12 @@
+#==============
+#=====Item=====
+#==============
+item.map.name=Server Map
+item.map.information=§7Right click to select a server!
+item.faction.name=§6Faction
+item.faction.information=§7Connect to §aFaction
+item.minage.name=§6Mining
+item.minage.information=§7Connect to §aMining
+
+server.faction.teleport=§7Teleport to §aFaction
+server.minage.teleport=§7Teleport to §aMining

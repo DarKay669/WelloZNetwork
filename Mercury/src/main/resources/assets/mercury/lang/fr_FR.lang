@@ -1,0 +1,12 @@
+#==============
+#=====Item=====
+#==============
+item.map.name=Carte du serveur
+item.map.information=§7Clic droit pour choisir un serveur !
+item.faction.name=§6Faction
+item.faction.information=§7Se connecter au §aFaction
+item.minage.name=§6Minage
+item.minage.information=§7Se connecter au §aMinage
+
+server.faction.teleport=§7Téléportation vers §aFaction
+server.minage.teleport=§7Téléportation vers §aMinage

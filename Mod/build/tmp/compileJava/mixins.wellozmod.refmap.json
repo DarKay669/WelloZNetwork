@@ -1,0 +1,454 @@
+{
+  "mappings": {
+    "fr/welloznetwork/wellozmod/mixins/entity/player/MixinEntityPlayer": {
+      "Lnet/minecraft/entity/player/EntityPlayer;getHealth()F": "Lnet/minecraft/entity/player/EntityPlayer;func_110143_aJ()F",
+      "attackTargetEntityWithCurrentItem": "Lnet/minecraft/entity/player/EntityPlayer;func_71059_n(Lnet/minecraft/entity/Entity;)V",
+      "writeEntityToNBT": "Lnet/minecraft/entity/player/EntityPlayer;func_70014_b(Lnet/minecraft/nbt/NBTTagCompound;)V",
+      "readEntityFromNBT": "Lnet/minecraft/entity/player/EntityPlayer;func_70037_a(Lnet/minecraft/nbt/NBTTagCompound;)V",
+      "onLivingUpdate": "Lnet/minecraft/entity/player/EntityPlayer;func_70636_d()V",
+      "isCurrentToolAdventureModeExempt": "Lnet/minecraft/entity/player/EntityPlayer;func_82246_f(III)Z",
+      "interactWith": "Lnet/minecraft/entity/player/EntityPlayer;func_70998_m(Lnet/minecraft/entity/Entity;)Z",
+      "getEyeHeight": "Lnet/minecraft/entity/player/EntityPlayer;func_70047_e()F"
+    },
+    "fr/welloznetwork/wellozmod/mixins/inventory/MixinContainerRepair": {
+      "updateRepairOutput": "Lnet/minecraft/inventory/ContainerRepair;func_82848_d()V",
+      "Lnet/minecraft/item/ItemStack;setStackDisplayName(Ljava/lang/String;)Lnet/minecraft/item/ItemStack;": "Lnet/minecraft/item/ItemStack;func_151001_c(Ljava/lang/String;)Lnet/minecraft/item/ItemStack;",
+      "updateItemName": "Lnet/minecraft/inventory/ContainerRepair;func_82850_a(Ljava/lang/String;)V"
+    },
+    "fr/welloznetwork/wellozmod/mixins/tileentity/MixinTileEntityHopper": {
+      "Lnet/minecraft/world/World;getTileEntity(III)Lnet/minecraft/tileentity/TileEntity;": "Lnet/minecraft/world/World;func_147438_o(III)Lnet/minecraft/tileentity/TileEntity;",
+      "func_145893_b": "Lnet/minecraft/tileentity/TileEntityHopper;func_145893_b(Lnet/minecraft/world/World;DDD)Lnet/minecraft/inventory/IInventory;"
+    },
+    "fr/welloznetwork/wellozmod/mixins/entity/passive/MixinEntitySquid": {
+      "onLivingUpdate": "Lnet/minecraft/entity/passive/EntitySquid;func_70636_d()V"
+    },
+    "fr/welloznetwork/wellozmod/mixins/client/resources/IMixinLanguageManagerAccessor": {
+      "languageMap": "field_135046_d:Ljava/util/Map;"
+    },
+    "fr/welloznetwork/wellozmod/mixins/block/MixinBlockLadder": {
+      "func_149797_b": "Lnet/minecraft/block/BlockLadder;func_149797_b(I)V"
+    },
+    "fr/welloznetwork/wellozmod/mixins/inventory/MixinContainerChest": {
+      "onContainerClosed": "Lnet/minecraft/inventory/ContainerChest;func_75134_a(Lnet/minecraft/entity/player/EntityPlayer;)V",
+      "Lnet/minecraft/inventory/IInventory;openInventory()V": "Lnet/minecraft/inventory/IInventory;func_70295_k_()V"
+    },
+    "fr/welloznetwork/wellozmod/mixins/client/gui/MixinGuiTextField": {
+      "mouseClicked(III)V": "Lnet/minecraft/client/gui/GuiTextField;func_146192_a(III)V"
+    },
+    "fr/welloznetwork/wellozmod/mixins/client/gui/IMixinFontRendererAccessor": {
+      "locationFontTexture": "field_111273_g:Lnet/minecraft/util/ResourceLocation;"
+    },
+    "fr/welloznetwork/wellozmod/mixins/village/MixinVillage": {
+      "isBlockDoor": "Lnet/minecraft/village/Village;func_75574_f(III)Z"
+    },
+    "fr/welloznetwork/wellozmod/mixins/client/entity/MixinAbstractClientPlayer": {
+      "getLocationCape": "Lnet/minecraft/client/entity/AbstractClientPlayer;func_110303_q()Lnet/minecraft/util/ResourceLocation;"
+    },
+    "fr/welloznetwork/wellozmod/mixins/client/multiplayer/MixinWorldClient": {
+      "doVoidFogParticles": "Lnet/minecraft/client/multiplayer/WorldClient;func_73029_E(III)V"
+    },
+    "fr/welloznetwork/wellozmod/mixins/util/MixinMovementInputFromOptions": {
+      "updatePlayerMoveState": "Lnet/minecraft/util/MovementInputFromOptions;func_78898_a()V"
+    },
+    "fr/welloznetwork/wellozmod/mixins/util/MixinChatAllowedCharacters": {
+      "isAllowedCharacter": "Lnet/minecraft/util/ChatAllowedCharacters;func_71566_a(C)Z"
+    },
+    "fr/welloznetwork/wellozmod/mixins/block/MixinBlockChest": {
+      "onNeighborBlockChange": "Lnet/minecraft/block/BlockChest;func_149695_a(Lnet/minecraft/world/World;IIILnet/minecraft/block/Block;)V"
+    },
+    "fr/welloznetwork/wellozmod/mixins/client/gui/IMixinGuiScreenAccessor": {
+      "width": "field_146294_l:I",
+      "height": "field_146295_m:I"
+    },
+    "fr/welloznetwork/wellozmod/mixins/inventory/MixinContainer": {
+      "slotClick": "Lnet/minecraft/inventory/Container;func_75144_a(IIILnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/item/ItemStack;"
+    },
+    "fr/welloznetwork/wellozmod/mixins/client/multiplayer/MixinPlayerControllerMP": {
+      "clickBlock": "Lnet/minecraft/client/multiplayer/PlayerControllerMP;func_78743_b(IIII)V",
+      "sendUseItem": "Lnet/minecraft/client/multiplayer/PlayerControllerMP;func_78769_a(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;Lnet/minecraft/item/ItemStack;)Z",
+      "Lnet/minecraft/entity/player/EntityPlayer;attackTargetEntityWithCurrentItem(Lnet/minecraft/entity/Entity;)V": "Lnet/minecraft/entity/player/EntityPlayer;func_71059_n(Lnet/minecraft/entity/Entity;)V",
+      "onPlayerDestroyBlock": "Lnet/minecraft/client/multiplayer/PlayerControllerMP;func_78751_a(IIII)Z",
+      "attackEntity": "Lnet/minecraft/client/multiplayer/PlayerControllerMP;func_78764_a(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/entity/Entity;)V",
+      "interactWithEntitySendPacket": "Lnet/minecraft/client/multiplayer/PlayerControllerMP;func_78768_b(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/entity/Entity;)Z"
+    },
+    "fr/welloznetwork/wellozmod/mixins/client/renderer/entity/IAccessorRendererLivingEntity": {
+      "mainModel": "field_77045_g:Lnet/minecraft/client/model/ModelBase;"
+    },
+    "fr/welloznetwork/wellozmod/mixins/entity/passive/MixinEntitySheep": {
+      "dropFewItems": "Lnet/minecraft/entity/passive/EntitySheep;func_70628_a(ZI)V"
+    },
+    "fr/welloznetwork/wellozmod/mixins/client/model/MixinModelBiped": {
+      "setRotationAngles": "Lnet/minecraft/client/model/ModelBiped;func_78087_a(FFFFFFLnet/minecraft/entity/Entity;)V",
+      "Lnet/minecraft/client/model/ModelBiped;isRiding:Z": "Lnet/minecraft/client/model/ModelBiped;field_78093_q:Z"
+    },
+    "fr/welloznetwork/wellozmod/mixins/world/gen/feature/MixinWorldGenCanopyTree": {
+      "generate(Lnet/minecraft/world/World;Ljava/util/Random;III)Z": "Lnet/minecraft/world/gen/feature/WorldGenCanopyTree;func_76484_a(Lnet/minecraft/world/World;Ljava/util/Random;III)Z"
+    },
+    "fr/welloznetwork/wellozmod/mixins/village/MixinVillageCollection": {
+      "isWoodenDoorAt": "Lnet/minecraft/village/VillageCollection;func_75541_e(III)Z"
+    },
+    "fr/welloznetwork/wellozmod/mixins/network/play/client/MixinC01PacketChatMessage": {
+      "\u003cinit\u003e(Ljava/lang/String;)V": "Lnet/minecraft/network/play/client/C01PacketChatMessage;\u003cinit\u003e(Ljava/lang/String;)V",
+      "processPacket(Lnet/minecraft/network/INetHandler;)V": "Lnet/minecraft/network/play/client/C01PacketChatMessage;func_148833_a(Lnet/minecraft/network/INetHandler;)V"
+    },
+    "fr/welloznetwork/wellozmod/mixins/client/renderer/texture/MixinTextureUtil": {
+      "allocateTextureImpl": "Lnet/minecraft/client/renderer/texture/TextureUtil;func_147946_a(IIIIF)V"
+    },
+    "fr/welloznetwork/wellozmod/mixins/client/particle/MixinEffectRenderer": {
+      "renderParticles": "Lnet/minecraft/client/particle/EffectRenderer;func_78874_a(Lnet/minecraft/entity/Entity;F)V"
+    },
+    "fr/welloznetwork/wellozmod/mixins/client/renderer/entity/MixinRender": {
+      "func_147906_a": "Lnet/minecraft/client/renderer/entity/Render;func_147906_a(Lnet/minecraft/entity/Entity;Ljava/lang/String;DDDI)V"
+    },
+    "fr/welloznetwork/wellozmod/mixins/world/chunk/MixinChunk": {
+      "populateChunk": "Lnet/minecraft/world/chunk/Chunk;func_76624_a(Lnet/minecraft/world/chunk/IChunkProvider;Lnet/minecraft/world/chunk/IChunkProvider;II)V"
+    },
+    "fr/welloznetwork/wellozmod/mixins/block/MixinBlock": {
+      "onBlockActivated": "Lnet/minecraft/block/Block;func_149727_a(Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;IFFF)Z"
+    },
+    "fr/welloznetwork/wellozmod/mixins/entity/player/MixinEntityPlayerMP": {
+      "canCommandSenderUseCommand(ILjava/lang/String;)Z": "Lnet/minecraft/entity/player/EntityPlayerMP;func_70003_b(ILjava/lang/String;)Z",
+      "closeContainer": "Lnet/minecraft/entity/player/EntityPlayerMP;func_71128_l()V"
+    },
+    "fr/welloznetwork/wellozmod/mixins/server/management/MixinItemInWorldManager": {
+      "Lnet/minecraft/world/World;destroyBlockInWorldPartially(IIIII)V": "Lnet/minecraft/world/World;func_147443_d(IIIII)V",
+      "onBlockClicked": "Lnet/minecraft/server/management/ItemInWorldManager;func_73074_a(IIII)V",
+      "onBlockClicked(IIII)V": "Lnet/minecraft/server/management/ItemInWorldManager;func_73074_a(IIII)V",
+      "Lnet/minecraft/server/management/ItemInWorldManager;curblockDamage:F": "Lnet/minecraft/server/management/ItemInWorldManager;field_73100_i:F",
+      "tryHarvestBlock": "Lnet/minecraft/server/management/ItemInWorldManager;func_73084_b(III)Z",
+      "Lnet/minecraft/entity/player/EntityPlayer;getCurrentEquippedItem()Lnet/minecraft/item/ItemStack;": "Lnet/minecraft/entity/player/EntityPlayer;func_71045_bC()Lnet/minecraft/item/ItemStack;",
+      "tryUseItem": "Lnet/minecraft/server/management/ItemInWorldManager;func_73085_a(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;Lnet/minecraft/item/ItemStack;)Z"
+    },
+    "fr/welloznetwork/wellozmod/mixins/entity/MixinEntity": {
+      "isEntityInsideOpaqueBlock": "Lnet/minecraft/entity/Entity;func_70094_T()Z"
+    },
+    "fr/welloznetwork/wellozmod/mixins/client/audio/MixinSoundManager": {
+      "reloadSoundSystem": "Lnet/minecraft/client/audio/SoundManager;func_148596_a()V",
+      "Lnet/minecraft/client/audio/SoundManager;loadSoundSystem()V": "Lnet/minecraft/client/audio/SoundManager;func_148608_i()V"
+    },
+    "fr/welloznetwork/wellozmod/mixins/world/MixinGameType": {
+      "isAdventure": "Lnet/minecraft/world/WorldSettings$GameType;func_82752_c()Z",
+      "configurePlayerCapabilities": "Lnet/minecraft/world/WorldSettings$GameType;func_77147_a(Lnet/minecraft/entity/player/PlayerCapabilities;)V"
+    },
+    "fr/welloznetwork/wellozmod/mixins/client/resources/MixinLanguageManager": {
+      "parseLanguageMetadata": "Lnet/minecraft/client/resources/LanguageManager;func_135043_a(Ljava/util/List;)V"
+    },
+    "fr/welloznetwork/wellozmod/mixins/util/IMixinFoodStatsAccessor": {
+      "foodLevel": "field_75127_a:I"
+    },
+    "fr/welloznetwork/wellozmod/mixins/entity/item/MixinEntityItemFrame": {
+      "func_146065_b": "Lnet/minecraft/entity/item/EntityItemFrame;func_146065_b(Lnet/minecraft/entity/Entity;Z)V"
+    },
+    "fr/welloznetwork/wellozmod/mixins/client/renderer/MixinEntityRenderer": {
+      "orientCamera": "Lnet/minecraft/client/renderer/EntityRenderer;func_78467_g(F)V"
+    },
+    "fr/welloznetwork/wellozmod/mixins/entity/projectile/MixinEntityThrowable": {
+      "onUpdate": "Lnet/minecraft/entity/projectile/EntityThrowable;func_70071_h_()V"
+    },
+    "fr/welloznetwork/wellozmod/mixins/client/gui/MixinGuiRepair": {
+      "drawGuiContainerForegroundLayer": "Lnet/minecraft/client/gui/GuiRepair;func_146979_b(II)V"
+    },
+    "fr/welloznetwork/wellozmod/modules/hud/mixins/client/gui/MixinGuiNewChat": {
+      "drawChat": "Lnet/minecraft/client/gui/GuiNewChat;func_146230_a(I)V",
+      "Lnet/minecraft/client/gui/GuiNewChat;drawRect(IIIII)V": "Lnet/minecraft/client/gui/GuiNewChat;func_73734_a(IIIII)V"
+    },
+    "fr/welloznetwork/wellozmod/mixins/client/renderer/entity/MixinRenderPlayer": {
+      "Lnet/minecraft/client/renderer/entity/RendererLivingEntity;rotateCorpse(Lnet/minecraft/entity/EntityLivingBase;FFF)V": "Lnet/minecraft/client/renderer/entity/RendererLivingEntity;func_77043_a(Lnet/minecraft/entity/EntityLivingBase;FFF)V",
+      "rotateCorpse(Lnet/minecraft/client/entity/AbstractClientPlayer;FFF)V": "Lnet/minecraft/client/renderer/entity/RenderPlayer;func_77043_a(Lnet/minecraft/client/entity/AbstractClientPlayer;FFF)V"
+    },
+    "fr/welloznetwork/wellozmod/mixins/entity/MixinEntityLivingBase": {
+      "moveEntityWithHeading": "Lnet/minecraft/entity/EntityLivingBase;func_70612_e(FF)V",
+      "updatePotionEffects()V": "Lnet/minecraft/entity/EntityLivingBase;func_70679_bo()V"
+    },
+    "fr/welloznetwork/wellozmod/mixins/client/renderer/entity/MixinRendererLivingEntity": {
+      "renderModel": "Lnet/minecraft/client/renderer/entity/RendererLivingEntity;func_77036_a(Lnet/minecraft/entity/EntityLivingBase;FFFFFF)V"
+    },
+    "fr/welloznetwork/wellozmod/mixins/world/gen/feature/MixinWorldGenDungeons": {
+      "generate": "Lnet/minecraft/world/gen/feature/WorldGenDungeons;func_76484_a(Lnet/minecraft/world/World;Ljava/util/Random;III)Z"
+    },
+    "fr/welloznetwork/wellozmod/mixins/command/MixinCommandBase": {
+      "canCommandSenderUseCommand": "Lnet/minecraft/command/CommandBase;func_71519_b(Lnet/minecraft/command/ICommandSender;)Z"
+    },
+    "fr/welloznetwork/wellozmod/modules/hud/mixins/client/gui/MixinGuiScreen": {
+      "drawWorldBackground": "Lnet/minecraft/client/gui/GuiScreen;func_146270_b(I)V"
+    },
+    "fr/welloznetwork/wellozmod/mixins/client/audio/MixinMusicTicker": {
+      "update": "Lnet/minecraft/client/audio/MusicTicker;func_73660_a()V"
+    },
+    "fr/welloznetwork/wellozmod/mixins/network/MixinNetHandlerPlayServer": {
+      "processPlayer": "Lnet/minecraft/network/NetHandlerPlayServer;func_147347_a(Lnet/minecraft/network/play/client/C03PacketPlayer;)V",
+      "Lnet/minecraft/entity/player/EntityPlayerMP;handleFalling(DZ)V": "Lnet/minecraft/entity/player/EntityPlayerMP;func_71122_b(DZ)V",
+      "processClickWindow": "Lnet/minecraft/network/NetHandlerPlayServer;func_147351_a(Lnet/minecraft/network/play/client/C0EPacketClickWindow;)V",
+      "processPlayer(Lnet/minecraft/network/play/client/C03PacketPlayer;)V": "Lnet/minecraft/network/NetHandlerPlayServer;func_147347_a(Lnet/minecraft/network/play/client/C03PacketPlayer;)V",
+      "Lnet/minecraft/inventory/Container;slotClick(IIILnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/item/ItemStack;": "Lnet/minecraft/inventory/Container;func_75144_a(IIILnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/item/ItemStack;"
+    },
+    "fr/welloznetwork/wellozmod/mixins/client/renderer/MixinWorldRenderer": {
+      "Lnet/minecraft/block/Block;getRenderType()I": "Lnet/minecraft/block/Block;func_149645_b()I",
+      "updateRenderer": "Lnet/minecraft/client/renderer/WorldRenderer;func_147892_a(Lnet/minecraft/entity/EntityLivingBase;)V"
+    },
+    "fr/welloznetwork/wellozmod/mixins/item/MixinItemBucket": {
+      "tryPlaceContainedLiquid": "Lnet/minecraft/item/ItemBucket;func_77875_a(Lnet/minecraft/world/World;III)Z",
+      "Lnet/minecraft/world/World;setBlock(IIILnet/minecraft/block/Block;II)Z": "Lnet/minecraft/world/World;func_147465_d(IIILnet/minecraft/block/Block;II)Z"
+    },
+    "fr/welloznetwork/wellozmod/mixins/client/MixinMinecraft": {
+      "func_147116_af": "Lnet/minecraft/client/Minecraft;func_147116_af()V",
+      "startGame": "Lnet/minecraft/client/Minecraft;func_71384_a()V",
+      "shutdownMinecraftApplet": "Lnet/minecraft/client/Minecraft;func_71405_e()V"
+    },
+    "fr/welloznetwork/wellozmod/mixins/client/IMixinMinecraftAccessor": {
+      "timer": "field_71428_T:Lnet/minecraft/util/Timer;"
+    },
+    "fr/welloznetwork/wellozmod/mixins/item/MixinItemLilyPad": {
+      "onItemRightClick(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/item/ItemStack;": "Lnet/minecraft/item/ItemLilyPad;func_77659_a(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/item/ItemStack;"
+    },
+    "fr/welloznetwork/wellozmod/mixins/entity/player/MixinInventoryPlayer": {
+      "getCurrentItem": "Lnet/minecraft/entity/player/InventoryPlayer;func_70448_g()Lnet/minecraft/item/ItemStack;",
+      "dropAllItems": "Lnet/minecraft/entity/player/InventoryPlayer;func_70436_m()V"
+    },
+    "fr/welloznetwork/wellozmod/mixins/entity/item/MixinEntityItem": {
+      "searchForOtherItemsNearby": "Lnet/minecraft/entity/item/EntityItem;func_85054_d()V",
+      "onUpdate": "Lnet/minecraft/entity/item/EntityItem;func_70071_h_()V"
+    },
+    "fr/welloznetwork/wellozmod/mixins/entity/projectile/MixinEntityArrow": {
+      "Lnet/minecraft/entity/projectile/EntityArrow;inData:I": "Lnet/minecraft/entity/projectile/EntityArrow;field_70253_h:I",
+      "onUpdate": "Lnet/minecraft/entity/projectile/EntityArrow;func_70071_h_()V"
+    },
+    "fr/welloznetwork/wellozmod/mixins/world/MixinWorld": {
+      "setBlockMetadataWithNotify": "Lnet/minecraft/world/World;func_72921_c(IIIII)Z",
+      "getClosestPlayer": "Lnet/minecraft/world/World;func_72977_a(DDDD)Lnet/minecraft/entity/player/EntityPlayer;",
+      "notifyBlocksOfNeighborChange(IIILnet/minecraft/block/Block;I)V": "Lnet/minecraft/world/World;func_147441_b(IIILnet/minecraft/block/Block;I)V",
+      "notifyBlocksOfNeighborChange(IIILnet/minecraft/block/Block;)V": "Lnet/minecraft/world/World;func_147459_d(IIILnet/minecraft/block/Block;)V",
+      "Lnet/minecraft/entity/player/EntityPlayer;getDistanceSq(DDD)D": "Lnet/minecraft/entity/player/EntityPlayer;func_70092_e(DDD)D"
+    },
+    "fr/welloznetwork/wellozmod/mixins/entity/IMixinEntityLivingBaseAccessor": {
+      "isJumping": "field_70703_bu:Z"
+    }
+  },
+  "data": {
+    "searge": {
+      "fr/welloznetwork/wellozmod/mixins/entity/player/MixinEntityPlayer": {
+        "Lnet/minecraft/entity/player/EntityPlayer;getHealth()F": "Lnet/minecraft/entity/player/EntityPlayer;func_110143_aJ()F",
+        "attackTargetEntityWithCurrentItem": "Lnet/minecraft/entity/player/EntityPlayer;func_71059_n(Lnet/minecraft/entity/Entity;)V",
+        "writeEntityToNBT": "Lnet/minecraft/entity/player/EntityPlayer;func_70014_b(Lnet/minecraft/nbt/NBTTagCompound;)V",
+        "readEntityFromNBT": "Lnet/minecraft/entity/player/EntityPlayer;func_70037_a(Lnet/minecraft/nbt/NBTTagCompound;)V",
+        "onLivingUpdate": "Lnet/minecraft/entity/player/EntityPlayer;func_70636_d()V",
+        "isCurrentToolAdventureModeExempt": "Lnet/minecraft/entity/player/EntityPlayer;func_82246_f(III)Z",
+        "interactWith": "Lnet/minecraft/entity/player/EntityPlayer;func_70998_m(Lnet/minecraft/entity/Entity;)Z",
+        "getEyeHeight": "Lnet/minecraft/entity/player/EntityPlayer;func_70047_e()F"
+      },
+      "fr/welloznetwork/wellozmod/mixins/inventory/MixinContainerRepair": {
+        "updateRepairOutput": "Lnet/minecraft/inventory/ContainerRepair;func_82848_d()V",
+        "Lnet/minecraft/item/ItemStack;setStackDisplayName(Ljava/lang/String;)Lnet/minecraft/item/ItemStack;": "Lnet/minecraft/item/ItemStack;func_151001_c(Ljava/lang/String;)Lnet/minecraft/item/ItemStack;",
+        "updateItemName": "Lnet/minecraft/inventory/ContainerRepair;func_82850_a(Ljava/lang/String;)V"
+      },
+      "fr/welloznetwork/wellozmod/mixins/tileentity/MixinTileEntityHopper": {
+        "Lnet/minecraft/world/World;getTileEntity(III)Lnet/minecraft/tileentity/TileEntity;": "Lnet/minecraft/world/World;func_147438_o(III)Lnet/minecraft/tileentity/TileEntity;",
+        "func_145893_b": "Lnet/minecraft/tileentity/TileEntityHopper;func_145893_b(Lnet/minecraft/world/World;DDD)Lnet/minecraft/inventory/IInventory;"
+      },
+      "fr/welloznetwork/wellozmod/mixins/entity/passive/MixinEntitySquid": {
+        "onLivingUpdate": "Lnet/minecraft/entity/passive/EntitySquid;func_70636_d()V"
+      },
+      "fr/welloznetwork/wellozmod/mixins/client/resources/IMixinLanguageManagerAccessor": {
+        "languageMap": "field_135046_d:Ljava/util/Map;"
+      },
+      "fr/welloznetwork/wellozmod/mixins/block/MixinBlockLadder": {
+        "func_149797_b": "Lnet/minecraft/block/BlockLadder;func_149797_b(I)V"
+      },
+      "fr/welloznetwork/wellozmod/mixins/inventory/MixinContainerChest": {
+        "onContainerClosed": "Lnet/minecraft/inventory/ContainerChest;func_75134_a(Lnet/minecraft/entity/player/EntityPlayer;)V",
+        "Lnet/minecraft/inventory/IInventory;openInventory()V": "Lnet/minecraft/inventory/IInventory;func_70295_k_()V"
+      },
+      "fr/welloznetwork/wellozmod/mixins/client/gui/MixinGuiTextField": {
+        "mouseClicked(III)V": "Lnet/minecraft/client/gui/GuiTextField;func_146192_a(III)V"
+      },
+      "fr/welloznetwork/wellozmod/mixins/client/gui/IMixinFontRendererAccessor": {
+        "locationFontTexture": "field_111273_g:Lnet/minecraft/util/ResourceLocation;"
+      },
+      "fr/welloznetwork/wellozmod/mixins/village/MixinVillage": {
+        "isBlockDoor": "Lnet/minecraft/village/Village;func_75574_f(III)Z"
+      },
+      "fr/welloznetwork/wellozmod/mixins/client/entity/MixinAbstractClientPlayer": {
+        "getLocationCape": "Lnet/minecraft/client/entity/AbstractClientPlayer;func_110303_q()Lnet/minecraft/util/ResourceLocation;"
+      },
+      "fr/welloznetwork/wellozmod/mixins/client/multiplayer/MixinWorldClient": {
+        "doVoidFogParticles": "Lnet/minecraft/client/multiplayer/WorldClient;func_73029_E(III)V"
+      },
+      "fr/welloznetwork/wellozmod/mixins/util/MixinMovementInputFromOptions": {
+        "updatePlayerMoveState": "Lnet/minecraft/util/MovementInputFromOptions;func_78898_a()V"
+      },
+      "fr/welloznetwork/wellozmod/mixins/util/MixinChatAllowedCharacters": {
+        "isAllowedCharacter": "Lnet/minecraft/util/ChatAllowedCharacters;func_71566_a(C)Z"
+      },
+      "fr/welloznetwork/wellozmod/mixins/block/MixinBlockChest": {
+        "onNeighborBlockChange": "Lnet/minecraft/block/BlockChest;func_149695_a(Lnet/minecraft/world/World;IIILnet/minecraft/block/Block;)V"
+      },
+      "fr/welloznetwork/wellozmod/mixins/client/gui/IMixinGuiScreenAccessor": {
+        "width": "field_146294_l:I",
+        "height": "field_146295_m:I"
+      },
+      "fr/welloznetwork/wellozmod/mixins/inventory/MixinContainer": {
+        "slotClick": "Lnet/minecraft/inventory/Container;func_75144_a(IIILnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/item/ItemStack;"
+      },
+      "fr/welloznetwork/wellozmod/mixins/client/multiplayer/MixinPlayerControllerMP": {
+        "clickBlock": "Lnet/minecraft/client/multiplayer/PlayerControllerMP;func_78743_b(IIII)V",
+        "sendUseItem": "Lnet/minecraft/client/multiplayer/PlayerControllerMP;func_78769_a(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;Lnet/minecraft/item/ItemStack;)Z",
+        "Lnet/minecraft/entity/player/EntityPlayer;attackTargetEntityWithCurrentItem(Lnet/minecraft/entity/Entity;)V": "Lnet/minecraft/entity/player/EntityPlayer;func_71059_n(Lnet/minecraft/entity/Entity;)V",
+        "onPlayerDestroyBlock": "Lnet/minecraft/client/multiplayer/PlayerControllerMP;func_78751_a(IIII)Z",
+        "attackEntity": "Lnet/minecraft/client/multiplayer/PlayerControllerMP;func_78764_a(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/entity/Entity;)V",
+        "interactWithEntitySendPacket": "Lnet/minecraft/client/multiplayer/PlayerControllerMP;func_78768_b(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/entity/Entity;)Z"
+      },
+      "fr/welloznetwork/wellozmod/mixins/client/renderer/entity/IAccessorRendererLivingEntity": {
+        "mainModel": "field_77045_g:Lnet/minecraft/client/model/ModelBase;"
+      },
+      "fr/welloznetwork/wellozmod/mixins/entity/passive/MixinEntitySheep": {
+        "dropFewItems": "Lnet/minecraft/entity/passive/EntitySheep;func_70628_a(ZI)V"
+      },
+      "fr/welloznetwork/wellozmod/mixins/client/model/MixinModelBiped": {
+        "setRotationAngles": "Lnet/minecraft/client/model/ModelBiped;func_78087_a(FFFFFFLnet/minecraft/entity/Entity;)V",
+        "Lnet/minecraft/client/model/ModelBiped;isRiding:Z": "Lnet/minecraft/client/model/ModelBiped;field_78093_q:Z"
+      },
+      "fr/welloznetwork/wellozmod/mixins/world/gen/feature/MixinWorldGenCanopyTree": {
+        "generate(Lnet/minecraft/world/World;Ljava/util/Random;III)Z": "Lnet/minecraft/world/gen/feature/WorldGenCanopyTree;func_76484_a(Lnet/minecraft/world/World;Ljava/util/Random;III)Z"
+      },
+      "fr/welloznetwork/wellozmod/mixins/village/MixinVillageCollection": {
+        "isWoodenDoorAt": "Lnet/minecraft/village/VillageCollection;func_75541_e(III)Z"
+      },
+      "fr/welloznetwork/wellozmod/mixins/network/play/client/MixinC01PacketChatMessage": {
+        "\u003cinit\u003e(Ljava/lang/String;)V": "Lnet/minecraft/network/play/client/C01PacketChatMessage;\u003cinit\u003e(Ljava/lang/String;)V",
+        "processPacket(Lnet/minecraft/network/INetHandler;)V": "Lnet/minecraft/network/play/client/C01PacketChatMessage;func_148833_a(Lnet/minecraft/network/INetHandler;)V"
+      },
+      "fr/welloznetwork/wellozmod/mixins/client/renderer/texture/MixinTextureUtil": {
+        "allocateTextureImpl": "Lnet/minecraft/client/renderer/texture/TextureUtil;func_147946_a(IIIIF)V"
+      },
+      "fr/welloznetwork/wellozmod/mixins/client/particle/MixinEffectRenderer": {
+        "renderParticles": "Lnet/minecraft/client/particle/EffectRenderer;func_78874_a(Lnet/minecraft/entity/Entity;F)V"
+      },
+      "fr/welloznetwork/wellozmod/mixins/client/renderer/entity/MixinRender": {
+        "func_147906_a": "Lnet/minecraft/client/renderer/entity/Render;func_147906_a(Lnet/minecraft/entity/Entity;Ljava/lang/String;DDDI)V"
+      },
+      "fr/welloznetwork/wellozmod/mixins/world/chunk/MixinChunk": {
+        "populateChunk": "Lnet/minecraft/world/chunk/Chunk;func_76624_a(Lnet/minecraft/world/chunk/IChunkProvider;Lnet/minecraft/world/chunk/IChunkProvider;II)V"
+      },
+      "fr/welloznetwork/wellozmod/mixins/block/MixinBlock": {
+        "onBlockActivated": "Lnet/minecraft/block/Block;func_149727_a(Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;IFFF)Z"
+      },
+      "fr/welloznetwork/wellozmod/mixins/entity/player/MixinEntityPlayerMP": {
+        "canCommandSenderUseCommand(ILjava/lang/String;)Z": "Lnet/minecraft/entity/player/EntityPlayerMP;func_70003_b(ILjava/lang/String;)Z",
+        "closeContainer": "Lnet/minecraft/entity/player/EntityPlayerMP;func_71128_l()V"
+      },
+      "fr/welloznetwork/wellozmod/mixins/server/management/MixinItemInWorldManager": {
+        "Lnet/minecraft/world/World;destroyBlockInWorldPartially(IIIII)V": "Lnet/minecraft/world/World;func_147443_d(IIIII)V",
+        "onBlockClicked": "Lnet/minecraft/server/management/ItemInWorldManager;func_73074_a(IIII)V",
+        "onBlockClicked(IIII)V": "Lnet/minecraft/server/management/ItemInWorldManager;func_73074_a(IIII)V",
+        "Lnet/minecraft/server/management/ItemInWorldManager;curblockDamage:F": "Lnet/minecraft/server/management/ItemInWorldManager;field_73100_i:F",
+        "tryHarvestBlock": "Lnet/minecraft/server/management/ItemInWorldManager;func_73084_b(III)Z",
+        "Lnet/minecraft/entity/player/EntityPlayer;getCurrentEquippedItem()Lnet/minecraft/item/ItemStack;": "Lnet/minecraft/entity/player/EntityPlayer;func_71045_bC()Lnet/minecraft/item/ItemStack;",
+        "tryUseItem": "Lnet/minecraft/server/management/ItemInWorldManager;func_73085_a(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;Lnet/minecraft/item/ItemStack;)Z"
+      },
+      "fr/welloznetwork/wellozmod/mixins/entity/MixinEntity": {
+        "isEntityInsideOpaqueBlock": "Lnet/minecraft/entity/Entity;func_70094_T()Z"
+      },
+      "fr/welloznetwork/wellozmod/mixins/client/audio/MixinSoundManager": {
+        "reloadSoundSystem": "Lnet/minecraft/client/audio/SoundManager;func_148596_a()V",
+        "Lnet/minecraft/client/audio/SoundManager;loadSoundSystem()V": "Lnet/minecraft/client/audio/SoundManager;func_148608_i()V"
+      },
+      "fr/welloznetwork/wellozmod/mixins/world/MixinGameType": {
+        "isAdventure": "Lnet/minecraft/world/WorldSettings$GameType;func_82752_c()Z",
+        "configurePlayerCapabilities": "Lnet/minecraft/world/WorldSettings$GameType;func_77147_a(Lnet/minecraft/entity/player/PlayerCapabilities;)V"
+      },
+      "fr/welloznetwork/wellozmod/mixins/client/resources/MixinLanguageManager": {
+        "parseLanguageMetadata": "Lnet/minecraft/client/resources/LanguageManager;func_135043_a(Ljava/util/List;)V"
+      },
+      "fr/welloznetwork/wellozmod/mixins/util/IMixinFoodStatsAccessor": {
+        "foodLevel": "field_75127_a:I"
+      },
+      "fr/welloznetwork/wellozmod/mixins/entity/item/MixinEntityItemFrame": {
+        "func_146065_b": "Lnet/minecraft/entity/item/EntityItemFrame;func_146065_b(Lnet/minecraft/entity/Entity;Z)V"
+      },
+      "fr/welloznetwork/wellozmod/mixins/client/renderer/MixinEntityRenderer": {
+        "orientCamera": "Lnet/minecraft/client/renderer/EntityRenderer;func_78467_g(F)V"
+      },
+      "fr/welloznetwork/wellozmod/mixins/entity/projectile/MixinEntityThrowable": {
+        "onUpdate": "Lnet/minecraft/entity/projectile/EntityThrowable;func_70071_h_()V"
+      },
+      "fr/welloznetwork/wellozmod/mixins/client/gui/MixinGuiRepair": {
+        "drawGuiContainerForegroundLayer": "Lnet/minecraft/client/gui/GuiRepair;func_146979_b(II)V"
+      },
+      "fr/welloznetwork/wellozmod/modules/hud/mixins/client/gui/MixinGuiNewChat": {
+        "drawChat": "Lnet/minecraft/client/gui/GuiNewChat;func_146230_a(I)V",
+        "Lnet/minecraft/client/gui/GuiNewChat;drawRect(IIIII)V": "Lnet/minecraft/client/gui/GuiNewChat;func_73734_a(IIIII)V"
+      },
+      "fr/welloznetwork/wellozmod/mixins/client/renderer/entity/MixinRenderPlayer": {
+        "Lnet/minecraft/client/renderer/entity/RendererLivingEntity;rotateCorpse(Lnet/minecraft/entity/EntityLivingBase;FFF)V": "Lnet/minecraft/client/renderer/entity/RendererLivingEntity;func_77043_a(Lnet/minecraft/entity/EntityLivingBase;FFF)V",
+        "rotateCorpse(Lnet/minecraft/client/entity/AbstractClientPlayer;FFF)V": "Lnet/minecraft/client/renderer/entity/RenderPlayer;func_77043_a(Lnet/minecraft/client/entity/AbstractClientPlayer;FFF)V"
+      },
+      "fr/welloznetwork/wellozmod/mixins/entity/MixinEntityLivingBase": {
+        "moveEntityWithHeading": "Lnet/minecraft/entity/EntityLivingBase;func_70612_e(FF)V",
+        "updatePotionEffects()V": "Lnet/minecraft/entity/EntityLivingBase;func_70679_bo()V"
+      },
+      "fr/welloznetwork/wellozmod/mixins/client/renderer/entity/MixinRendererLivingEntity": {
+        "renderModel": "Lnet/minecraft/client/renderer/entity/RendererLivingEntity;func_77036_a(Lnet/minecraft/entity/EntityLivingBase;FFFFFF)V"
+      },
+      "fr/welloznetwork/wellozmod/mixins/world/gen/feature/MixinWorldGenDungeons": {
+        "generate": "Lnet/minecraft/world/gen/feature/WorldGenDungeons;func_76484_a(Lnet/minecraft/world/World;Ljava/util/Random;III)Z"
+      },
+      "fr/welloznetwork/wellozmod/mixins/command/MixinCommandBase": {
+        "canCommandSenderUseCommand": "Lnet/minecraft/command/CommandBase;func_71519_b(Lnet/minecraft/command/ICommandSender;)Z"
+      },
+      "fr/welloznetwork/wellozmod/modules/hud/mixins/client/gui/MixinGuiScreen": {
+        "drawWorldBackground": "Lnet/minecraft/client/gui/GuiScreen;func_146270_b(I)V"
+      },
+      "fr/welloznetwork/wellozmod/mixins/client/audio/MixinMusicTicker": {
+        "update": "Lnet/minecraft/client/audio/MusicTicker;func_73660_a()V"
+      },
+      "fr/welloznetwork/wellozmod/mixins/network/MixinNetHandlerPlayServer": {
+        "processPlayer": "Lnet/minecraft/network/NetHandlerPlayServer;func_147347_a(Lnet/minecraft/network/play/client/C03PacketPlayer;)V",
+        "Lnet/minecraft/entity/player/EntityPlayerMP;handleFalling(DZ)V": "Lnet/minecraft/entity/player/EntityPlayerMP;func_71122_b(DZ)V",
+        "processClickWindow": "Lnet/minecraft/network/NetHandlerPlayServer;func_147351_a(Lnet/minecraft/network/play/client/C0EPacketClickWindow;)V",
+        "processPlayer(Lnet/minecraft/network/play/client/C03PacketPlayer;)V": "Lnet/minecraft/network/NetHandlerPlayServer;func_147347_a(Lnet/minecraft/network/play/client/C03PacketPlayer;)V",
+        "Lnet/minecraft/inventory/Container;slotClick(IIILnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/item/ItemStack;": "Lnet/minecraft/inventory/Container;func_75144_a(IIILnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/item/ItemStack;"
+      },
+      "fr/welloznetwork/wellozmod/mixins/client/renderer/MixinWorldRenderer": {
+        "Lnet/minecraft/block/Block;getRenderType()I": "Lnet/minecraft/block/Block;func_149645_b()I",
+        "updateRenderer": "Lnet/minecraft/client/renderer/WorldRenderer;func_147892_a(Lnet/minecraft/entity/EntityLivingBase;)V"
+      },
+      "fr/welloznetwork/wellozmod/mixins/item/MixinItemBucket": {
+        "tryPlaceContainedLiquid": "Lnet/minecraft/item/ItemBucket;func_77875_a(Lnet/minecraft/world/World;III)Z",
+        "Lnet/minecraft/world/World;setBlock(IIILnet/minecraft/block/Block;II)Z": "Lnet/minecraft/world/World;func_147465_d(IIILnet/minecraft/block/Block;II)Z"
+      },
+      "fr/welloznetwork/wellozmod/mixins/client/MixinMinecraft": {
+        "func_147116_af": "Lnet/minecraft/client/Minecraft;func_147116_af()V",
+        "startGame": "Lnet/minecraft/client/Minecraft;func_71384_a()V",
+        "shutdownMinecraftApplet": "Lnet/minecraft/client/Minecraft;func_71405_e()V"
+      },
+      "fr/welloznetwork/wellozmod/mixins/client/IMixinMinecraftAccessor": {
+        "timer": "field_71428_T:Lnet/minecraft/util/Timer;"
+      },
+      "fr/welloznetwork/wellozmod/mixins/item/MixinItemLilyPad": {
+        "onItemRightClick(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/item/ItemStack;": "Lnet/minecraft/item/ItemLilyPad;func_77659_a(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/item/ItemStack;"
+      },
+      "fr/welloznetwork/wellozmod/mixins/entity/player/MixinInventoryPlayer": {
+        "getCurrentItem": "Lnet/minecraft/entity/player/InventoryPlayer;func_70448_g()Lnet/minecraft/item/ItemStack;",
+        "dropAllItems": "Lnet/minecraft/entity/player/InventoryPlayer;func_70436_m()V"
+      },
+      "fr/welloznetwork/wellozmod/mixins/entity/item/MixinEntityItem": {
+        "searchForOtherItemsNearby": "Lnet/minecraft/entity/item/EntityItem;func_85054_d()V",
+        "onUpdate": "Lnet/minecraft/entity/item/EntityItem;func_70071_h_()V"
+      },
+      "fr/welloznetwork/wellozmod/mixins/entity/projectile/MixinEntityArrow": {
+        "Lnet/minecraft/entity/projectile/EntityArrow;inData:I": "Lnet/minecraft/entity/projectile/EntityArrow;field_70253_h:I",
+        "onUpdate": "Lnet/minecraft/entity/projectile/EntityArrow;func_70071_h_()V"
+      },
+      "fr/welloznetwork/wellozmod/mixins/world/MixinWorld": {
+        "setBlockMetadataWithNotify": "Lnet/minecraft/world/World;func_72921_c(IIIII)Z",
+        "getClosestPlayer": "Lnet/minecraft/world/World;func_72977_a(DDDD)Lnet/minecraft/entity/player/EntityPlayer;",
+        "notifyBlocksOfNeighborChange(IIILnet/minecraft/block/Block;I)V": "Lnet/minecraft/world/World;func_147441_b(IIILnet/minecraft/block/Block;I)V",
+        "notifyBlocksOfNeighborChange(IIILnet/minecraft/block/Block;)V": "Lnet/minecraft/world/World;func_147459_d(IIILnet/minecraft/block/Block;)V",
+        "Lnet/minecraft/entity/player/EntityPlayer;getDistanceSq(DDD)D": "Lnet/minecraft/entity/player/EntityPlayer;func_70092_e(DDD)D"
+      },
+      "fr/welloznetwork/wellozmod/mixins/entity/IMixinEntityLivingBaseAccessor": {
+        "isJumping": "field_70703_bu:Z"
+      }
+    }
+  }
+}

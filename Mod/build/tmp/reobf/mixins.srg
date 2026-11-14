@@ -1,0 +1,187 @@
+FD: fr/welloznetwork/wellozmod/mixins/block/MixinBlock/blockRegistry fr/welloznetwork/wellozmod/mixins/block/MixinBlock/field_149771_c
+FD: fr/welloznetwork/wellozmod/mixins/client/audio/MixinMusicTicker/field_147677_b fr/welloznetwork/wellozmod/mixins/client/audio/MixinMusicTicker/field_147677_b
+FD: fr/welloznetwork/wellozmod/mixins/client/gui/achievement/MixinGuiAchievement/field_146266_k fr/welloznetwork/wellozmod/mixins/client/gui/achievement/MixinGuiAchievement/field_146266_k
+FD: fr/welloznetwork/wellozmod/mixins/client/gui/achievement/MixinGuiAchievement/field_146263_l fr/welloznetwork/wellozmod/mixins/client/gui/achievement/MixinGuiAchievement/field_146263_l
+FD: fr/welloznetwork/wellozmod/mixins/client/gui/achievement/MixinGuiAchievement/field_146262_n fr/welloznetwork/wellozmod/mixins/client/gui/achievement/MixinGuiAchievement/field_146262_n
+FD: fr/welloznetwork/wellozmod/mixins/client/gui/MixinGuiScreen/mc fr/welloznetwork/wellozmod/mixins/client/gui/MixinGuiScreen/field_146297_k
+FD: fr/welloznetwork/wellozmod/mixins/client/gui/MixinGuiTextField/xPosition fr/welloznetwork/wellozmod/mixins/client/gui/MixinGuiTextField/field_146209_f
+FD: fr/welloznetwork/wellozmod/mixins/client/gui/MixinGuiTextField/yPosition fr/welloznetwork/wellozmod/mixins/client/gui/MixinGuiTextField/field_146210_g
+FD: fr/welloznetwork/wellozmod/mixins/client/gui/MixinGuiTextField/width fr/welloznetwork/wellozmod/mixins/client/gui/MixinGuiTextField/field_146218_h
+FD: fr/welloznetwork/wellozmod/mixins/client/gui/MixinGuiTextField/height fr/welloznetwork/wellozmod/mixins/client/gui/MixinGuiTextField/field_146219_i
+FD: fr/welloznetwork/wellozmod/mixins/client/gui/MixinGuiTextField/canLoseFocus fr/welloznetwork/wellozmod/mixins/client/gui/MixinGuiTextField/field_146212_n
+FD: fr/welloznetwork/wellozmod/mixins/client/gui/MixinGuiTextField/isFocused fr/welloznetwork/wellozmod/mixins/client/gui/MixinGuiTextField/field_146213_o
+FD: fr/welloznetwork/wellozmod/mixins/client/gui/MixinGuiTextField/isEnabled fr/welloznetwork/wellozmod/mixins/client/gui/MixinGuiTextField/field_146226_p
+FD: fr/welloznetwork/wellozmod/mixins/client/gui/MixinGuiTextField/visible fr/welloznetwork/wellozmod/mixins/client/gui/MixinGuiTextField/field_146220_v
+FD: fr/welloznetwork/wellozmod/mixins/client/MixinMinecraft/leftClickCounter fr/welloznetwork/wellozmod/mixins/client/MixinMinecraft/field_71429_W
+FD: fr/welloznetwork/wellozmod/mixins/client/MixinMinecraft/gameSettings fr/welloznetwork/wellozmod/mixins/client/MixinMinecraft/field_71474_y
+FD: fr/welloznetwork/wellozmod/mixins/client/model/MixinModelBiped/bipedHead fr/welloznetwork/wellozmod/mixins/client/model/MixinModelBiped/field_78116_c
+FD: fr/welloznetwork/wellozmod/mixins/client/model/MixinModelBiped/bipedHeadwear fr/welloznetwork/wellozmod/mixins/client/model/MixinModelBiped/field_78114_d
+FD: fr/welloznetwork/wellozmod/mixins/client/model/MixinModelBiped/bipedBody fr/welloznetwork/wellozmod/mixins/client/model/MixinModelBiped/field_78115_e
+FD: fr/welloznetwork/wellozmod/mixins/client/model/MixinModelBiped/bipedRightArm fr/welloznetwork/wellozmod/mixins/client/model/MixinModelBiped/field_78112_f
+FD: fr/welloznetwork/wellozmod/mixins/client/model/MixinModelBiped/bipedLeftArm fr/welloznetwork/wellozmod/mixins/client/model/MixinModelBiped/field_78113_g
+FD: fr/welloznetwork/wellozmod/mixins/client/model/MixinModelBiped/bipedRightLeg fr/welloznetwork/wellozmod/mixins/client/model/MixinModelBiped/field_78123_h
+FD: fr/welloznetwork/wellozmod/mixins/client/model/MixinModelBiped/bipedLeftLeg fr/welloznetwork/wellozmod/mixins/client/model/MixinModelBiped/field_78124_i
+FD: fr/welloznetwork/wellozmod/mixins/client/particle/MixinEffectRenderer/worldObj fr/welloznetwork/wellozmod/mixins/client/particle/MixinEffectRenderer/field_78878_a
+FD: fr/welloznetwork/wellozmod/mixins/client/renderer/entity/MixinRender/renderManager fr/welloznetwork/wellozmod/mixins/client/renderer/entity/MixinRender/field_76990_c
+FD: fr/welloznetwork/wellozmod/mixins/client/renderer/entity/MixinRenderItem/zLevel fr/welloznetwork/wellozmod/mixins/client/renderer/entity/MixinRenderItem/field_77023_b
+FD: fr/welloznetwork/wellozmod/mixins/client/renderer/MixinEntityRenderer/mc fr/welloznetwork/wellozmod/mixins/client/renderer/MixinEntityRenderer/field_78531_r
+FD: fr/welloznetwork/wellozmod/mixins/client/renderer/MixinEntityRenderer/mouseFilterXAxis fr/welloznetwork/wellozmod/mixins/client/renderer/MixinEntityRenderer/field_78527_v
+FD: fr/welloznetwork/wellozmod/mixins/client/renderer/MixinEntityRenderer/mouseFilterYAxis fr/welloznetwork/wellozmod/mixins/client/renderer/MixinEntityRenderer/field_78526_w
+FD: fr/welloznetwork/wellozmod/mixins/client/renderer/MixinEntityRenderer/debugCamFOV fr/welloznetwork/wellozmod/mixins/client/renderer/MixinEntityRenderer/field_78493_M
+FD: fr/welloznetwork/wellozmod/mixins/client/renderer/MixinEntityRenderer/prevDebugCamFOV fr/welloznetwork/wellozmod/mixins/client/renderer/MixinEntityRenderer/field_78494_N
+FD: fr/welloznetwork/wellozmod/mixins/client/renderer/MixinEntityRenderer/fovModifierHand fr/welloznetwork/wellozmod/mixins/client/renderer/MixinEntityRenderer/field_78507_R
+FD: fr/welloznetwork/wellozmod/mixins/client/renderer/MixinEntityRenderer/fovModifierHandPrev fr/welloznetwork/wellozmod/mixins/client/renderer/MixinEntityRenderer/field_78506_S
+FD: fr/welloznetwork/wellozmod/mixins/client/renderer/MixinEntityRenderer/debugViewDirection fr/welloznetwork/wellozmod/mixins/client/renderer/MixinEntityRenderer/field_78532_q
+FD: fr/welloznetwork/wellozmod/mixins/client/renderer/MixinItemRenderer/mc fr/welloznetwork/wellozmod/mixins/client/renderer/MixinItemRenderer/field_78455_a
+FD: fr/welloznetwork/wellozmod/mixins/client/renderer/MixinRenderGlobal/mc fr/welloznetwork/wellozmod/mixins/client/renderer/MixinRenderGlobal/field_72777_q
+FD: fr/welloznetwork/wellozmod/mixins/client/renderer/MixinRenderGlobal/mapSoundPositions fr/welloznetwork/wellozmod/mixins/client/renderer/MixinRenderGlobal/field_147593_P
+FD: fr/welloznetwork/wellozmod/mixins/enchantment/MixinEnchantment/name fr/welloznetwork/wellozmod/mixins/enchantment/MixinEnchantment/field_77350_z
+FD: fr/welloznetwork/wellozmod/mixins/entity/MixinEntity/noClip fr/welloznetwork/wellozmod/mixins/entity/MixinEntity/field_70145_X
+FD: fr/welloznetwork/wellozmod/mixins/entity/MixinEntityLivingBase/activePotionsMap fr/welloznetwork/wellozmod/mixins/entity/MixinEntityLivingBase/field_70713_bf
+FD: fr/welloznetwork/wellozmod/mixins/entity/player/MixinEntityPlayer/inventory fr/welloznetwork/wellozmod/mixins/entity/player/MixinEntityPlayer/field_71071_by
+FD: fr/welloznetwork/wellozmod/mixins/entity/player/MixinEntityPlayer/capabilities fr/welloznetwork/wellozmod/mixins/entity/player/MixinEntityPlayer/field_71075_bZ
+FD: fr/welloznetwork/wellozmod/mixins/entity/player/MixinInventoryPlayer/player fr/welloznetwork/wellozmod/mixins/entity/player/MixinInventoryPlayer/field_70458_d
+FD: fr/welloznetwork/wellozmod/mixins/entity/projectile/MixinEntityArrow/field_145791_d fr/welloznetwork/wellozmod/mixins/entity/projectile/MixinEntityArrow/field_145791_d
+FD: fr/welloznetwork/wellozmod/mixins/entity/projectile/MixinEntityArrow/field_145792_e fr/welloznetwork/wellozmod/mixins/entity/projectile/MixinEntityArrow/field_145792_e
+FD: fr/welloznetwork/wellozmod/mixins/entity/projectile/MixinEntityArrow/field_145789_f fr/welloznetwork/wellozmod/mixins/entity/projectile/MixinEntityArrow/field_145789_f
+FD: fr/welloznetwork/wellozmod/mixins/entity/projectile/MixinEntityArrow/inData fr/welloznetwork/wellozmod/mixins/entity/projectile/MixinEntityArrow/field_70253_h
+FD: fr/welloznetwork/wellozmod/mixins/inventory/MixinContainer/inventorySlots fr/welloznetwork/wellozmod/mixins/inventory/MixinContainer/field_75151_b
+FD: fr/welloznetwork/wellozmod/mixins/item/MixinItemArmor/material fr/welloznetwork/wellozmod/mixins/item/MixinItemArmor/field_77878_bZ
+FD: fr/welloznetwork/wellozmod/mixins/item/MixinItemBucket/isFull fr/welloznetwork/wellozmod/mixins/item/MixinItemBucket/field_77876_a
+FD: fr/welloznetwork/wellozmod/mixins/item/MixinItemStack/stackSize fr/welloznetwork/wellozmod/mixins/item/MixinItemStack/field_77994_a
+FD: fr/welloznetwork/wellozmod/mixins/item/MixinItemStack/itemDamage fr/welloznetwork/wellozmod/mixins/item/MixinItemStack/field_77991_e
+FD: fr/welloznetwork/wellozmod/mixins/item/MixinItemStack/stackTagCompound fr/welloznetwork/wellozmod/mixins/item/MixinItemStack/field_77990_d
+FD: fr/welloznetwork/wellozmod/mixins/network/MixinNetHandlerPlayServer/serverController fr/welloznetwork/wellozmod/mixins/network/MixinNetHandlerPlayServer/field_147367_d
+FD: fr/welloznetwork/wellozmod/mixins/network/MixinNetHandlerPlayServer/playerEntity fr/welloznetwork/wellozmod/mixins/network/MixinNetHandlerPlayServer/field_147369_b
+FD: fr/welloznetwork/wellozmod/mixins/network/play/client/MixinC01PacketChatMessage/field_149440_a fr/welloznetwork/wellozmod/mixins/network/play/client/MixinC01PacketChatMessage/field_149440_a
+FD: fr/welloznetwork/wellozmod/mixins/potion/MixinPotion/potionTypes fr/welloznetwork/wellozmod/mixins/potion/MixinPotion/field_76425_a
+FD: fr/welloznetwork/wellozmod/mixins/server/management/MixinItemInWorldManager/gameType fr/welloznetwork/wellozmod/mixins/server/management/MixinItemInWorldManager/field_73091_c
+FD: fr/welloznetwork/wellozmod/mixins/stats/MixinStatisticsFile/field_150888_e fr/welloznetwork/wellozmod/mixins/stats/MixinStatisticsFile/field_150888_e
+FD: fr/welloznetwork/wellozmod/mixins/stats/MixinStatisticsFile/field_150886_g fr/welloznetwork/wellozmod/mixins/stats/MixinStatisticsFile/field_150886_g
+FD: fr/welloznetwork/wellozmod/mixins/village/MixinMerchantRecipe/itemToBuy fr/welloznetwork/wellozmod/mixins/village/MixinMerchantRecipe/field_77403_a
+FD: fr/welloznetwork/wellozmod/mixins/village/MixinMerchantRecipe/secondItemToBuy fr/welloznetwork/wellozmod/mixins/village/MixinMerchantRecipe/field_77401_b
+FD: fr/welloznetwork/wellozmod/mixins/village/MixinMerchantRecipe/itemToSell fr/welloznetwork/wellozmod/mixins/village/MixinMerchantRecipe/field_77402_c
+FD: fr/welloznetwork/wellozmod/mixins/village/MixinVillageCollection/worldObj fr/welloznetwork/wellozmod/mixins/village/MixinVillageCollection/field_75556_a
+FD: fr/welloznetwork/wellozmod/mixins/village/MixinVillageSiege/worldObj fr/welloznetwork/wellozmod/mixins/village/MixinVillageSiege/field_75537_a
+FD: fr/welloznetwork/wellozmod/mixins/village/MixinVillageSiege/field_75533_d fr/welloznetwork/wellozmod/mixins/village/MixinVillageSiege/field_75533_d
+FD: fr/welloznetwork/wellozmod/mixins/village/MixinVillageSiege/field_75534_e fr/welloznetwork/wellozmod/mixins/village/MixinVillageSiege/field_75534_e
+FD: fr/welloznetwork/wellozmod/mixins/village/MixinVillageSiege/theVillage fr/welloznetwork/wellozmod/mixins/village/MixinVillageSiege/field_75531_f
+FD: fr/welloznetwork/wellozmod/mixins/village/MixinVillageSiege/field_75532_g fr/welloznetwork/wellozmod/mixins/village/MixinVillageSiege/field_75532_g
+FD: fr/welloznetwork/wellozmod/mixins/village/MixinVillageSiege/field_75538_h fr/welloznetwork/wellozmod/mixins/village/MixinVillageSiege/field_75538_h
+FD: fr/welloznetwork/wellozmod/mixins/village/MixinVillageSiege/field_75539_i fr/welloznetwork/wellozmod/mixins/village/MixinVillageSiege/field_75539_i
+FD: fr/welloznetwork/wellozmod/mixins/world/MixinChunkCache/chunkX fr/welloznetwork/wellozmod/mixins/world/MixinChunkCache/field_72818_a
+FD: fr/welloznetwork/wellozmod/mixins/world/MixinChunkCache/chunkZ fr/welloznetwork/wellozmod/mixins/world/MixinChunkCache/field_72816_b
+FD: fr/welloznetwork/wellozmod/mixins/world/MixinExplosion/isFlaming fr/welloznetwork/wellozmod/mixins/world/MixinExplosion/field_77286_a
+FD: fr/welloznetwork/wellozmod/mixins/world/MixinExplosion/isSmoking fr/welloznetwork/wellozmod/mixins/world/MixinExplosion/field_82755_b
+FD: fr/welloznetwork/wellozmod/mixins/world/MixinExplosion/explosionRNG fr/welloznetwork/wellozmod/mixins/world/MixinExplosion/field_77290_i
+FD: fr/welloznetwork/wellozmod/mixins/world/MixinExplosion/worldObj fr/welloznetwork/wellozmod/mixins/world/MixinExplosion/field_77287_j
+FD: fr/welloznetwork/wellozmod/mixins/world/MixinExplosion/explosionX fr/welloznetwork/wellozmod/mixins/world/MixinExplosion/field_77284_b
+FD: fr/welloznetwork/wellozmod/mixins/world/MixinExplosion/explosionY fr/welloznetwork/wellozmod/mixins/world/MixinExplosion/field_77285_c
+FD: fr/welloznetwork/wellozmod/mixins/world/MixinExplosion/explosionZ fr/welloznetwork/wellozmod/mixins/world/MixinExplosion/field_77282_d
+FD: fr/welloznetwork/wellozmod/mixins/world/MixinExplosion/explosionSize fr/welloznetwork/wellozmod/mixins/world/MixinExplosion/field_77280_f
+FD: fr/welloznetwork/wellozmod/mixins/world/MixinExplosion/affectedBlockPositions fr/welloznetwork/wellozmod/mixins/world/MixinExplosion/field_77281_g
+FD: fr/welloznetwork/wellozmod/mixins/world/MixinWorld/isRemote fr/welloznetwork/wellozmod/mixins/world/MixinWorld/field_72995_K
+FD: fr/welloznetwork/wellozmod/mixins/world/MixinWorldServer/pendingTickListEntriesHashSet fr/welloznetwork/wellozmod/mixins/world/MixinWorldServer/field_73064_N
+FD: fr/welloznetwork/wellozmod/modules/hud/mixins/client/gui/MixinGuiButton/width fr/welloznetwork/wellozmod/modules/hud/mixins/client/gui/MixinGuiButton/field_146120_f
+FD: fr/welloznetwork/wellozmod/modules/hud/mixins/client/gui/MixinGuiButton/height fr/welloznetwork/wellozmod/modules/hud/mixins/client/gui/MixinGuiButton/field_146121_g
+FD: fr/welloznetwork/wellozmod/modules/hud/mixins/client/gui/MixinGuiButton/xPosition fr/welloznetwork/wellozmod/modules/hud/mixins/client/gui/MixinGuiButton/field_146128_h
+FD: fr/welloznetwork/wellozmod/modules/hud/mixins/client/gui/MixinGuiButton/yPosition fr/welloznetwork/wellozmod/modules/hud/mixins/client/gui/MixinGuiButton/field_146129_i
+FD: fr/welloznetwork/wellozmod/modules/hud/mixins/client/gui/MixinGuiButton/displayString fr/welloznetwork/wellozmod/modules/hud/mixins/client/gui/MixinGuiButton/field_146126_j
+FD: fr/welloznetwork/wellozmod/modules/hud/mixins/client/gui/MixinGuiButton/enabled fr/welloznetwork/wellozmod/modules/hud/mixins/client/gui/MixinGuiButton/field_146124_l
+FD: fr/welloznetwork/wellozmod/modules/hud/mixins/client/gui/MixinGuiButton/visible fr/welloznetwork/wellozmod/modules/hud/mixins/client/gui/MixinGuiButton/field_146125_m
+FD: fr/welloznetwork/wellozmod/modules/hud/mixins/client/gui/MixinGuiButton/field_146123_n fr/welloznetwork/wellozmod/modules/hud/mixins/client/gui/MixinGuiButton/field_146123_n
+FD: fr/welloznetwork/wellozmod/modules/hud/mixins/client/gui/MixinGuiScreen/width fr/welloznetwork/wellozmod/modules/hud/mixins/client/gui/MixinGuiScreen/field_146294_l
+FD: fr/welloznetwork/wellozmod/modules/hud/mixins/client/gui/MixinGuiScreen/height fr/welloznetwork/wellozmod/modules/hud/mixins/client/gui/MixinGuiScreen/field_146295_m
+MD: fr/welloznetwork/wellozmod/mixins/block/MixinBlock/getBlockById (I)Lnet/minecraft/block/Block; fr/welloznetwork/wellozmod/mixins/block/MixinBlock/func_149729_e (I)Lnet/minecraft/block/Block;
+MD: fr/welloznetwork/wellozmod/mixins/block/MixinBlockBasePressurePlate/canPlaceBlockAt (Lnet/minecraft/world/World;III)Z fr/welloznetwork/wellozmod/mixins/block/MixinBlockBasePressurePlate/func_149742_c (Lnet/minecraft/world/World;III)Z
+MD: fr/welloznetwork/wellozmod/mixins/block/MixinBlockBasePressurePlate/onNeighborBlockChange (Lnet/minecraft/world/World;IIILnet/minecraft/block/Block;)V fr/welloznetwork/wellozmod/mixins/block/MixinBlockBasePressurePlate/func_149695_a (Lnet/minecraft/world/World;IIILnet/minecraft/block/Block;)V
+MD: fr/welloznetwork/wellozmod/mixins/block/MixinBlockChest/breakBlock (Lnet/minecraft/world/World;IIILnet/minecraft/block/Block;I)V fr/welloznetwork/wellozmod/mixins/block/MixinBlockChest/func_149749_a (Lnet/minecraft/world/World;IIILnet/minecraft/block/Block;I)V
+MD: fr/welloznetwork/wellozmod/mixins/block/MixinBlockDeadBush/getItemDropped (ILjava/util/Random;I)Lnet/minecraft/item/Item; fr/welloznetwork/wellozmod/mixins/block/MixinBlockDeadBush/func_149650_a (ILjava/util/Random;I)Lnet/minecraft/item/Item;
+MD: fr/welloznetwork/wellozmod/mixins/block/MixinBlockEnchantmentTable/randomDisplayTick (Lnet/minecraft/world/World;IIILjava/util/Random;)V fr/welloznetwork/wellozmod/mixins/block/MixinBlockEnchantmentTable/func_149734_b (Lnet/minecraft/world/World;IIILjava/util/Random;)V
+MD: fr/welloznetwork/wellozmod/mixins/block/MixinBlockFence/canConnectFenceTo (Lnet/minecraft/world/IBlockAccess;III)Z fr/welloznetwork/wellozmod/mixins/block/MixinBlockFence/func_149826_e (Lnet/minecraft/world/IBlockAccess;III)Z
+MD: fr/welloznetwork/wellozmod/mixins/block/MixinBlockHopper/breakBlock (Lnet/minecraft/world/World;IIILnet/minecraft/block/Block;I)V fr/welloznetwork/wellozmod/mixins/block/MixinBlockHopper/func_149749_a (Lnet/minecraft/world/World;IIILnet/minecraft/block/Block;I)V
+MD: fr/welloznetwork/wellozmod/mixins/block/MixinBlockLeaves/harvestBlock (Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;IIII)V fr/welloznetwork/wellozmod/mixins/block/MixinBlockLeaves/func_149636_a (Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;IIII)V
+MD: fr/welloznetwork/wellozmod/mixins/block/MixinBlockLiquid/func_149799_m (Lnet/minecraft/world/World;III)V fr/welloznetwork/wellozmod/mixins/block/MixinBlockLiquid/func_149799_m (Lnet/minecraft/world/World;III)V
+MD: fr/welloznetwork/wellozmod/mixins/block/MixinBlockPumpkin/canPlaceBlockAt (Lnet/minecraft/world/World;III)Z fr/welloznetwork/wellozmod/mixins/block/MixinBlockPumpkin/func_149742_c (Lnet/minecraft/world/World;III)Z
+MD: fr/welloznetwork/wellozmod/mixins/block/MixinBlockSkull/func_149965_a (Lnet/minecraft/world/World;IIILnet/minecraft/tileentity/TileEntitySkull;)V fr/welloznetwork/wellozmod/mixins/block/MixinBlockSkull/func_149965_a (Lnet/minecraft/world/World;IIILnet/minecraft/tileentity/TileEntitySkull;)V
+MD: fr/welloznetwork/wellozmod/mixins/block/MixinBlockSkull/func_149966_a (Lnet/minecraft/world/World;IIII)Z fr/welloznetwork/wellozmod/mixins/block/MixinBlockSkull/func_149966_a (Lnet/minecraft/world/World;IIII)Z
+MD: fr/welloznetwork/wellozmod/mixins/block/MixinBlockSnow/shouldSideBeRendered (Lnet/minecraft/world/IBlockAccess;IIII)Z fr/welloznetwork/wellozmod/mixins/block/MixinBlockSnow/func_149646_a (Lnet/minecraft/world/IBlockAccess;IIII)Z
+MD: fr/welloznetwork/wellozmod/mixins/block/MixinBlockSnowBlock/updateTick (Lnet/minecraft/world/World;IIILjava/util/Random;)V fr/welloznetwork/wellozmod/mixins/block/MixinBlockSnowBlock/func_149674_a (Lnet/minecraft/world/World;IIILjava/util/Random;)V
+MD: fr/welloznetwork/wellozmod/mixins/block/MixinBlockTallGrass/harvestBlock (Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;IIII)V fr/welloznetwork/wellozmod/mixins/block/MixinBlockTallGrass/func_149636_a (Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;IIII)V
+MD: fr/welloznetwork/wellozmod/mixins/block/MixinBlockWall/canConnectWallTo (Lnet/minecraft/world/IBlockAccess;III)Z fr/welloznetwork/wellozmod/mixins/block/MixinBlockWall/func_150091_e (Lnet/minecraft/world/IBlockAccess;III)Z
+MD: fr/welloznetwork/wellozmod/mixins/client/gui/achievement/MixinGuiAchievement/func_146254_a ()V fr/welloznetwork/wellozmod/mixins/client/gui/achievement/MixinGuiAchievement/func_146254_a ()V
+MD: fr/welloznetwork/wellozmod/mixins/client/gui/MixinGuiGameOver/initGui ()V fr/welloznetwork/wellozmod/mixins/client/gui/MixinGuiGameOver/func_73866_w_ ()V
+MD: fr/welloznetwork/wellozmod/mixins/client/gui/MixinGuiGameOver/actionPerformed (Lnet/minecraft/client/gui/GuiButton;)V fr/welloznetwork/wellozmod/mixins/client/gui/MixinGuiGameOver/func_146284_a (Lnet/minecraft/client/gui/GuiButton;)V
+MD: fr/welloznetwork/wellozmod/mixins/client/gui/MixinGuiGameOver/confirmClicked (ZI)V fr/welloznetwork/wellozmod/mixins/client/gui/MixinGuiGameOver/func_73878_a (ZI)V
+MD: fr/welloznetwork/wellozmod/mixins/client/gui/MixinGuiGameOver/drawScreen (IIF)V fr/welloznetwork/wellozmod/mixins/client/gui/MixinGuiGameOver/func_73863_a (IIF)V
+MD: fr/welloznetwork/wellozmod/mixins/client/gui/MixinGuiGameOver/updateScreen ()V fr/welloznetwork/wellozmod/mixins/client/gui/MixinGuiGameOver/func_73876_c ()V
+MD: fr/welloznetwork/wellozmod/mixins/client/gui/MixinGuiScreen/keyTyped (CI)V fr/welloznetwork/wellozmod/mixins/client/gui/MixinGuiScreen/func_73869_a (CI)V
+MD: fr/welloznetwork/wellozmod/mixins/client/gui/MixinGuiScreen/handleKeyboardInput ()V fr/welloznetwork/wellozmod/mixins/client/gui/MixinGuiScreen/func_146282_l ()V
+MD: fr/welloznetwork/wellozmod/mixins/client/gui/MixinGuiTextField/setText (Ljava/lang/String;)V fr/welloznetwork/wellozmod/mixins/client/gui/MixinGuiTextField/func_146180_a (Ljava/lang/String;)V
+MD: fr/welloznetwork/wellozmod/mixins/client/MixinMinecraft/getLimitFramerate ()I fr/welloznetwork/wellozmod/mixins/client/MixinMinecraft/func_90020_K ()I
+MD: fr/welloznetwork/wellozmod/mixins/client/multiplayer/MixinServerData/func_152586_b ()Lnet/minecraft/client/multiplayer/ServerData$ServerResourceMode; fr/welloznetwork/wellozmod/mixins/client/multiplayer/MixinServerData/func_152586_b ()Lnet/minecraft/client/multiplayer/ServerData$ServerResourceMode;
+MD: fr/welloznetwork/wellozmod/mixins/client/particle/MixinEffectRenderer/addEffect (Lnet/minecraft/client/particle/EntityFX;)V fr/welloznetwork/wellozmod/mixins/client/particle/MixinEffectRenderer/func_78873_a (Lnet/minecraft/client/particle/EntityFX;)V
+MD: fr/welloznetwork/wellozmod/mixins/client/particle/MixinEffectRenderer/addBlockDestroyEffects (IIILnet/minecraft/block/Block;I)V fr/welloznetwork/wellozmod/mixins/client/particle/MixinEffectRenderer/func_147215_a (IIILnet/minecraft/block/Block;I)V
+MD: fr/welloznetwork/wellozmod/mixins/client/renderer/entity/MixinRender/renderEntityOnFire (Lnet/minecraft/entity/Entity;DDDF)V fr/welloznetwork/wellozmod/mixins/client/renderer/entity/MixinRender/func_76977_a (Lnet/minecraft/entity/Entity;DDDF)V
+MD: fr/welloznetwork/wellozmod/mixins/client/renderer/entity/MixinRenderItem/renderGlint (IIIII)V fr/welloznetwork/wellozmod/mixins/client/renderer/entity/MixinRenderItem/func_77018_a (IIIII)V
+MD: fr/welloznetwork/wellozmod/mixins/client/renderer/MixinEntityRenderer/getFOVModifier (FZ)F fr/welloznetwork/wellozmod/mixins/client/renderer/MixinEntityRenderer/func_78481_a (FZ)F
+MD: fr/welloznetwork/wellozmod/mixins/client/renderer/MixinItemRenderer/renderFireInFirstPerson (F)V fr/welloznetwork/wellozmod/mixins/client/renderer/MixinItemRenderer/func_78442_d (F)V
+MD: fr/welloznetwork/wellozmod/mixins/client/renderer/MixinRenderGlobal/playRecord (Ljava/lang/String;III)V fr/welloznetwork/wellozmod/mixins/client/renderer/MixinRenderGlobal/func_72702_a (Ljava/lang/String;III)V
+MD: fr/welloznetwork/wellozmod/mixins/client/renderer/texture/MixinTextureUtil/deleteTexture (I)V fr/welloznetwork/wellozmod/mixins/client/renderer/texture/MixinTextureUtil/func_147942_a (I)V
+MD: fr/welloznetwork/wellozmod/mixins/client/renderer/texture/MixinTextureUtil/bindTexture (I)V fr/welloznetwork/wellozmod/mixins/client/renderer/texture/MixinTextureUtil/func_94277_a (I)V
+MD: fr/welloznetwork/wellozmod/mixins/client/settings/MixinOptions/getEnumOptions (I)Lnet/minecraft/client/settings/GameSettings$Options; fr/welloznetwork/wellozmod/mixins/client/settings/MixinOptions/func_74379_a (I)Lnet/minecraft/client/settings/GameSettings$Options;
+MD: fr/welloznetwork/wellozmod/mixins/enchantment/MixinEnchantment/getMaxLevel ()I fr/welloznetwork/wellozmod/mixins/enchantment/MixinEnchantment/func_77325_b ()I
+MD: fr/welloznetwork/wellozmod/mixins/enchantment/MixinEnchantment/getName ()Ljava/lang/String; fr/welloznetwork/wellozmod/mixins/enchantment/MixinEnchantment/func_77320_a ()Ljava/lang/String;
+MD: fr/welloznetwork/wellozmod/mixins/enchantment/MixinEnchantment/getTranslatedName (I)Ljava/lang/String; fr/welloznetwork/wellozmod/mixins/enchantment/MixinEnchantment/func_77316_c (I)Ljava/lang/String;
+MD: fr/welloznetwork/wellozmod/mixins/enchantment/MixinEnchantmentThorns/getMinEnchantability (I)I fr/welloznetwork/wellozmod/mixins/enchantment/MixinEnchantmentThorns/func_77321_a (I)I
+MD: fr/welloznetwork/wellozmod/mixins/enchantment/MixinEnchantmentThorns/getMaxEnchantability (I)I fr/welloznetwork/wellozmod/mixins/enchantment/MixinEnchantmentThorns/func_77317_b (I)I
+MD: fr/welloznetwork/wellozmod/mixins/enchantment/MixinEnchantmentThorns/getMaxLevel ()I fr/welloznetwork/wellozmod/mixins/enchantment/MixinEnchantmentThorns/func_77325_b ()I
+MD: fr/welloznetwork/wellozmod/mixins/enchantment/MixinEnchantmentThorns/func_151367_b (Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/entity/Entity;I)V fr/welloznetwork/wellozmod/mixins/enchantment/MixinEnchantmentThorns/func_151367_b (Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/entity/Entity;I)V
+MD: fr/welloznetwork/wellozmod/mixins/entity/item/MixinEntityItem/getEntityItem ()Lnet/minecraft/item/ItemStack; fr/welloznetwork/wellozmod/mixins/entity/item/MixinEntityItem/func_92059_d ()Lnet/minecraft/item/ItemStack;
+MD: fr/welloznetwork/wellozmod/mixins/entity/item/MixinEntityMinecartTNT/explodeCart (D)V fr/welloznetwork/wellozmod/mixins/entity/item/MixinEntityMinecartTNT/func_94103_c (D)V
+MD: fr/welloznetwork/wellozmod/mixins/entity/MixinEntityLeashKnot/onValidSurface ()Z fr/welloznetwork/wellozmod/mixins/entity/MixinEntityLeashKnot/func_70518_d ()Z
+MD: fr/welloznetwork/wellozmod/mixins/entity/MixinEntityLivingBase/isClientWorld ()Z fr/welloznetwork/wellozmod/mixins/entity/MixinEntityLivingBase/func_70613_aW ()Z
+MD: fr/welloznetwork/wellozmod/mixins/entity/MixinEntityLivingBase/isPotionActive (I)Z fr/welloznetwork/wellozmod/mixins/entity/MixinEntityLivingBase/func_82165_m (I)Z
+MD: fr/welloznetwork/wellozmod/mixins/entity/MixinEntityLivingBase/isPotionActive (Lnet/minecraft/potion/Potion;)Z fr/welloznetwork/wellozmod/mixins/entity/MixinEntityLivingBase/func_70644_a (Lnet/minecraft/potion/Potion;)Z
+MD: fr/welloznetwork/wellozmod/mixins/entity/player/MixinEntityPlayer/isPlayerSleeping ()Z fr/welloznetwork/wellozmod/mixins/entity/player/MixinEntityPlayer/func_70608_bn ()Z
+MD: fr/welloznetwork/wellozmod/mixins/entity/player/MixinEntityPlayer/setHideCape (IZ)V fr/welloznetwork/wellozmod/mixins/entity/player/MixinEntityPlayer/func_82239_b (IZ)V
+MD: fr/welloznetwork/wellozmod/mixins/entity/player/MixinEntityPlayerInvisible/isInvisibleToPlayer (Lnet/minecraft/entity/player/EntityPlayer;)Z fr/welloznetwork/wellozmod/mixins/entity/player/MixinEntityPlayerInvisible/func_98034_c (Lnet/minecraft/entity/player/EntityPlayer;)Z
+MD: fr/welloznetwork/wellozmod/mixins/entity/projectile/MixinEntityArrow/onUpdate ()V fr/welloznetwork/wellozmod/mixins/entity/projectile/MixinEntityArrow/func_70071_h_ ()V
+MD: fr/welloznetwork/wellozmod/mixins/inventory/MixinContainer/getSlot (I)Lnet/minecraft/inventory/Slot; fr/welloznetwork/wellozmod/mixins/inventory/MixinContainer/func_75139_a (I)Lnet/minecraft/inventory/Slot;
+MD: fr/welloznetwork/wellozmod/mixins/inventory/MixinInventoryEnderChest/loadInventoryFromNBT (Lnet/minecraft/nbt/NBTTagList;)V fr/welloznetwork/wellozmod/mixins/inventory/MixinInventoryEnderChest/func_70486_a (Lnet/minecraft/nbt/NBTTagList;)V
+MD: fr/welloznetwork/wellozmod/mixins/inventory/MixinInventoryEnderChest/saveInventoryToNBT ()Lnet/minecraft/nbt/NBTTagList; fr/welloznetwork/wellozmod/mixins/inventory/MixinInventoryEnderChest/func_70487_g ()Lnet/minecraft/nbt/NBTTagList;
+MD: fr/welloznetwork/wellozmod/mixins/inventory/MixinSlotMerchantResult/func_75230_a (Lnet/minecraft/village/MerchantRecipe;Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;)Z fr/welloznetwork/wellozmod/mixins/inventory/MixinSlotMerchantResult/func_75230_a (Lnet/minecraft/village/MerchantRecipe;Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;)Z
+MD: fr/welloznetwork/wellozmod/mixins/item/MixinItemArmor/onItemRightClick (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/item/ItemStack; fr/welloznetwork/wellozmod/mixins/item/MixinItemArmor/func_77659_a (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/item/ItemStack;
+MD: fr/welloznetwork/wellozmod/mixins/item/MixinItemEnderPearl/onItemRightClick (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/item/ItemStack; fr/welloznetwork/wellozmod/mixins/item/MixinItemEnderPearl/func_77659_a (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/item/ItemStack;
+MD: fr/welloznetwork/wellozmod/mixins/item/MixinItemRecord/onItemUse (Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;IIIIFFF)Z fr/welloznetwork/wellozmod/mixins/item/MixinItemRecord/func_77648_a (Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;IIIIFFF)Z
+MD: fr/welloznetwork/wellozmod/mixins/item/MixinItemStack/func_150996_a (Lnet/minecraft/item/Item;)V fr/welloznetwork/wellozmod/mixins/item/MixinItemStack/func_150996_a (Lnet/minecraft/item/Item;)V
+MD: fr/welloznetwork/wellozmod/mixins/item/MixinItemStack/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V fr/welloznetwork/wellozmod/mixins/item/MixinItemStack/func_77963_c (Lnet/minecraft/nbt/NBTTagCompound;)V
+MD: fr/welloznetwork/wellozmod/mixins/network/MixinNetworkManager/provideLanClient (Ljava/net/InetAddress;I)Lnet/minecraft/network/NetworkManager; fr/welloznetwork/wellozmod/mixins/network/MixinNetworkManager/func_150726_a (Ljava/net/InetAddress;I)Lnet/minecraft/network/NetworkManager;
+MD: fr/welloznetwork/wellozmod/mixins/network/play/client/MixinC01PacketChatMessage/readPacketData (Lnet/minecraft/network/PacketBuffer;)V fr/welloznetwork/wellozmod/mixins/network/play/client/MixinC01PacketChatMessage/func_148837_a (Lnet/minecraft/network/PacketBuffer;)V
+MD: fr/welloznetwork/wellozmod/mixins/network/play/client/MixinC01PacketChatMessage/writePacketData (Lnet/minecraft/network/PacketBuffer;)V fr/welloznetwork/wellozmod/mixins/network/play/client/MixinC01PacketChatMessage/func_148840_b (Lnet/minecraft/network/PacketBuffer;)V
+MD: fr/welloznetwork/wellozmod/mixins/potion/MixinPotionAttackDamage/func_111183_a (ILnet/minecraft/entity/ai/attributes/AttributeModifier;)D fr/welloznetwork/wellozmod/mixins/potion/MixinPotionAttackDamage/func_111183_a (ILnet/minecraft/entity/ai/attributes/AttributeModifier;)D
+MD: fr/welloznetwork/wellozmod/mixins/server/MixinMinecraftServer/initialWorldChunkLoad ()V fr/welloznetwork/wellozmod/mixins/server/MixinMinecraftServer/func_71222_d ()V
+MD: fr/welloznetwork/wellozmod/mixins/stats/MixinStatisticsFile/func_150873_a (Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/stats/StatBase;I)V fr/welloznetwork/wellozmod/mixins/stats/MixinStatisticsFile/func_150873_a (Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/stats/StatBase;I)V
+MD: fr/welloznetwork/wellozmod/mixins/village/MixinMerchantRecipe/hasSameIDsAs (Lnet/minecraft/village/MerchantRecipe;)Z fr/welloznetwork/wellozmod/mixins/village/MixinMerchantRecipe/func_77393_a (Lnet/minecraft/village/MerchantRecipe;)Z
+MD: fr/welloznetwork/wellozmod/mixins/village/MixinVillageSiege/func_75527_a (III)Lnet/minecraft/util/Vec3; fr/welloznetwork/wellozmod/mixins/village/MixinVillageSiege/func_75527_a (III)Lnet/minecraft/util/Vec3;
+MD: fr/welloznetwork/wellozmod/mixins/village/MixinVillageSiege/func_75529_b ()Z fr/welloznetwork/wellozmod/mixins/village/MixinVillageSiege/func_75529_b ()Z
+MD: fr/welloznetwork/wellozmod/mixins/world/gen/feature/MixinWorldGenDungeons/pickMobSpawner (Ljava/util/Random;)Ljava/lang/String; fr/welloznetwork/wellozmod/mixins/world/gen/feature/MixinWorldGenDungeons/func_76543_b (Ljava/util/Random;)Ljava/lang/String;
+MD: fr/welloznetwork/wellozmod/mixins/world/gen/structure/MixinStructureComponent/getXWithOffset (II)I fr/welloznetwork/wellozmod/mixins/world/gen/structure/MixinStructureComponent/func_74865_a (II)I
+MD: fr/welloznetwork/wellozmod/mixins/world/gen/structure/MixinStructureComponent/getYWithOffset (I)I fr/welloznetwork/wellozmod/mixins/world/gen/structure/MixinStructureComponent/func_74862_a (I)I
+MD: fr/welloznetwork/wellozmod/mixins/world/gen/structure/MixinStructureComponent/getZWithOffset (II)I fr/welloznetwork/wellozmod/mixins/world/gen/structure/MixinStructureComponent/func_74873_b (II)I
+MD: fr/welloznetwork/wellozmod/mixins/world/gen/structure/MixinStructureComponent/func_151554_b (Lnet/minecraft/world/World;Lnet/minecraft/block/Block;IIIILnet/minecraft/world/gen/structure/StructureBoundingBox;)V fr/welloznetwork/wellozmod/mixins/world/gen/structure/MixinStructureComponent/func_151554_b (Lnet/minecraft/world/World;Lnet/minecraft/block/Block;IIIILnet/minecraft/world/gen/structure/StructureBoundingBox;)V
+MD: fr/welloznetwork/wellozmod/mixins/world/gen/structure/MixinStructureComponent/clearCurrentPositionBlocksUpwards (Lnet/minecraft/world/World;IIILnet/minecraft/world/gen/structure/StructureBoundingBox;)V fr/welloznetwork/wellozmod/mixins/world/gen/structure/MixinStructureComponent/func_74871_b (Lnet/minecraft/world/World;IIILnet/minecraft/world/gen/structure/StructureBoundingBox;)V
+MD: fr/welloznetwork/wellozmod/mixins/world/gen/structure/MixinStructureVillagePiecesPath/addComponentParts (Lnet/minecraft/world/World;Ljava/util/Random;Lnet/minecraft/world/gen/structure/StructureBoundingBox;)Z fr/welloznetwork/wellozmod/mixins/world/gen/structure/MixinStructureVillagePiecesPath/func_74875_a (Lnet/minecraft/world/World;Ljava/util/Random;Lnet/minecraft/world/gen/structure/StructureBoundingBox;)Z
+MD: fr/welloznetwork/wellozmod/mixins/world/gen/structure/MixinStructureVillagePiecesWell/addComponentParts (Lnet/minecraft/world/World;Ljava/util/Random;Lnet/minecraft/world/gen/structure/StructureBoundingBox;)Z fr/welloznetwork/wellozmod/mixins/world/gen/structure/MixinStructureVillagePiecesWell/func_74875_a (Lnet/minecraft/world/World;Ljava/util/Random;Lnet/minecraft/world/gen/structure/StructureBoundingBox;)Z
+MD: fr/welloznetwork/wellozmod/mixins/world/MixinExplosion/doExplosionB (Z)V fr/welloznetwork/wellozmod/mixins/world/MixinExplosion/func_77279_a (Z)V
+MD: fr/welloznetwork/wellozmod/mixins/world/MixinWorld/blockExists (III)Z fr/welloznetwork/wellozmod/mixins/world/MixinWorld/func_72899_e (III)Z
+MD: fr/welloznetwork/wellozmod/mixins/world/MixinWorld/getBlock (III)Lnet/minecraft/block/Block; fr/welloznetwork/wellozmod/mixins/world/MixinWorld/func_147439_a (III)Lnet/minecraft/block/Block;
+MD: fr/welloznetwork/wellozmod/mixins/world/MixinWorld/getChunkFromBlockCoords (II)Lnet/minecraft/world/chunk/Chunk; fr/welloznetwork/wellozmod/mixins/world/MixinWorld/func_72938_d (II)Lnet/minecraft/world/chunk/Chunk;
+MD: fr/welloznetwork/wellozmod/mixins/world/MixinWorld/getTopSolidOrLiquidBlock (II)I fr/welloznetwork/wellozmod/mixins/world/MixinWorld/func_72825_h (II)I
+MD: fr/welloznetwork/wellozmod/mixins/world/MixinWorldProviderEnd/registerWorldChunkManager ()V fr/welloznetwork/wellozmod/mixins/world/MixinWorldProviderEnd/func_76572_b ()V
+MD: fr/welloznetwork/wellozmod/mixins/world/MixinWorldProviderEnd/createChunkGenerator ()Lnet/minecraft/world/chunk/IChunkProvider; fr/welloznetwork/wellozmod/mixins/world/MixinWorldProviderEnd/func_76555_c ()Lnet/minecraft/world/chunk/IChunkProvider;
+MD: fr/welloznetwork/wellozmod/mixins/world/MixinWorldProviderHell/registerWorldChunkManager ()V fr/welloznetwork/wellozmod/mixins/world/MixinWorldProviderHell/func_76572_b ()V
+MD: fr/welloznetwork/wellozmod/mixins/world/MixinWorldProviderHell/createChunkGenerator ()Lnet/minecraft/world/chunk/IChunkProvider; fr/welloznetwork/wellozmod/mixins/world/MixinWorldProviderHell/func_76555_c ()Lnet/minecraft/world/chunk/IChunkProvider;
+MD: fr/welloznetwork/wellozmod/modules/hud/mixins/client/gui/MixinGuiButton/getHoverState (Z)I fr/welloznetwork/wellozmod/modules/hud/mixins/client/gui/MixinGuiButton/func_146114_a (Z)I
+MD: fr/welloznetwork/wellozmod/modules/hud/mixins/client/gui/MixinGuiButton/drawButton (Lnet/minecraft/client/Minecraft;II)V fr/welloznetwork/wellozmod/modules/hud/mixins/client/gui/MixinGuiButton/func_146112_a (Lnet/minecraft/client/Minecraft;II)V
+MD: fr/welloznetwork/wellozmod/modules/hud/mixins/client/gui/MixinGuiButton/mouseDragged (Lnet/minecraft/client/Minecraft;II)V fr/welloznetwork/wellozmod/modules/hud/mixins/client/gui/MixinGuiButton/func_146119_b (Lnet/minecraft/client/Minecraft;II)V
